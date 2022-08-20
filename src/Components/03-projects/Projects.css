@@ -1,0 +1,88 @@
+.projects{
+background-image: url(https://www.wallpaperuse.com/wallp/47-479028_m.jpg);
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+color: white;
+}
+.titleProjects{
+text-shadow: 2px 2px var(--yellow);
+font-size: 65px;
+margin-bottom: 4px ;
+}
+.projectsAreaComplet{
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 20px;
+    max-width: 1300px;
+    margin-top:100px;
+}
+
+.areaConteiner{
+    display: grid;
+    height: 550px;
+    color:white;
+    gap: 10px;
+    grid-template-areas: 
+    "proyecto-1  proyecto-2 proyecto-3"
+    "proyecto-1  proyecto4 proyecto-6";  
+}
+
+.projectsItems{
+    position: relative;
+    border-radius: 10px;
+    width: 100%;
+    border: 4px solid white;
+    height: 100%;
+    overflow: hidden;
+}
+.projectsImg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.projectsItems:hover{
+    transform: translate(0%);
+} 
+.projectsItems:nth-of-type(1){
+    grid-area: proyecto-1;
+}
+.projectsItems:nth-of-type(2){
+    grid-area: proyecto-2;
+}
+.projectsItems:nth-of-type(3){
+    grid-area: proyecto-3;
+}
+.projectsItems:nth-of-type(4){
+    grid-area: proyecto4;
+}
+.projectsItems:nth-of-type(5){
+    grid-area: proyecto-6;
+}
+
+.projectSubTitle{
+    font-size:17px ;
+}
+.projectSubTitleHover{
+    font-weight: 600;
+    position: absolute;
+    background:rgba(65, 62, 62, 0.567);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: whitesmoke;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+    transition: transform .4s ease-in-out;
+}
+.projectSubTitleHover:hover{    
+    transform: translate(100%);
+        
+}

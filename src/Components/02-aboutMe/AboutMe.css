@@ -1,0 +1,104 @@
+.titleAboutMe{
+    position: relative; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.titleAboutMe h2{
+    text-shadow: 2px 2px rgb(37, 37, 36);
+    font-size: 26px;
+    font-weight: 100;
+    color:var(--yellow);
+    letter-spacing: 1px;
+}
+.titleAboutMe h3{
+    font-size: 29px;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+.titleAboutMe h3 p{ 
+    font-size: 15px;
+}
+.titleAboutMe h3 p span{ 
+    color:var(--yellow);
+    font-size: 20px;
+}
+.subTitleAboutMe h1{
+    
+    margin-top: 50px;
+    margin-bottom: 5px;
+    text-shadow: 1px 1px var(--yellow);
+}
+
+.paragraph{
+    font-size: larger;
+}
+
+
+
+.buttonCV{
+    margin: 0 auto;
+    cursor: pointer;
+    color: black;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    text-align: center;
+    width: 400px;
+    height: 50px;
+    font-size: 19px;
+    background-color: rgba(248, 248, 255, 0);
+    border: 2px solid rgb(8, 8, 8);
+    display: flex;
+    align-items: center;
+    transition: .3s ease-in-out all;   
+}
+.buttonCV span{
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    
+}
+
+.buttonCV:hover{
+    background-color:  var(--yellow)  ;
+    
+    box-shadow: 0px 0 10px 0px rgb(58, 57, 59);
+}
+.buttonCV:hover span{
+    cursor: pointer;
+    color: rgb(247, 243, 243);
+    text-shadow: 1px 1px black;
+    
+}
+
+.iconCV{
+    fill: rgb(243, 243, 243);
+    width: 29px;
+    height: 29px;
+    left: -40px;
+    border-radius: 50%; 
+}
+.divIconCV{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+    left: 350px;
+    transition: .3s ease-in-out all;
+    opacity: 0;
+    
+ }
+
+ .buttonCV:hover .divIconCV{
+    left: calc(100% - 460px);
+    opacity: 1;
+}
+
+.buttonCV span {
+    transition: .4s ease-in-out all;
+    position: absolute;
+    left: 45%;
+}
+.buttonCV:hover span{
+    left: 35%;
+}
