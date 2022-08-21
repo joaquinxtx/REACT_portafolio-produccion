@@ -1,11 +1,12 @@
-import { PortfolioConteiner } from "./Components/PortfolioConteiner"
+
+import { RoutesApp } from "./Routes/RoutesApp"
 
 
 function App() {
 
   return (
     <>
-    <PortfolioConteiner/>
+      <RoutesApp/>
     </>
   )
 }

@@ -6,7 +6,7 @@ export const AboutMe = () => {
     <div className='container' id='aboutMe'>
         <div className='titleAboutMe'>
             <h3>
-                <p>I <span>'</span> m</p>
+                <p> {'<'} <span>/</span> {'>'} </p>
                 Joaquin Toledo
             </h3>
             <h2>Front-End Developer</h2>

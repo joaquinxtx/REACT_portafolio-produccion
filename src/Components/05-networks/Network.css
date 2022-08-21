@@ -1,0 +1,56 @@
+.network{
+    background-image: url(https://www.wallpapertip.com/wmimgs/84-843960_4k-background-for-website.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+.tech-icon-redes {
+    fill: rgb(252, 245, 245);
+    font-size: 5rem;
+    padding-right: 1rem;
+    
+    margin-bottom: 10px;
+}
+.tech-icon-redes:hover {
+    transform: scale(1.2);
+    transition: all 0.7s ease-in-out;
+    cursor: pointer;
+}
+
+.gmail-icon:hover {
+    fill: #ee3907;
+}
+.instagram-icon:hover {
+    fill:rgb(240, 61, 150);
+}
+.linkdin-icon:hover {
+    fill: #2678e3;
+}
+.facebook-icon:hover {
+    fill: #335ebb;
+}
+.github-icon:hover {
+    fill: #383837;
+}
+.iconsNetwork{
+    display: flex;
+    align-items: center;
+    text-shadow: 2px 1px var(--orange);
+    font-size: 25px;
+    color: white;
+}
+
+@media screen and (min-width:500px){
+
+    .iconsNetwork span{
+        display: none;
+    }
+    .containerIcons{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+   
+
+}

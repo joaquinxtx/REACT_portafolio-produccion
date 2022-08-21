@@ -1,0 +1,60 @@
+.titleFormacion{
+ margin-top: 50px;
+ text-shadow: 2px 2px var(--yellow);
+ font-size: 45px;
+ margin-bottom: 4px ;
+}
+
+.paragraph{
+ margin-bottom: 20px;
+}
+
+.tech-icon {
+    fill: black;
+    font-size: 5rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+}
+
+.tech-icon:hover {
+    transform: scale(1.2);
+    transition: all 0.7s ease-in-out;
+    cursor: pointer;
+}
+
+.html-icon:hover {
+    fill: #E34F26;
+}
+
+.css-icon:hover {
+    fill: #264DE4;
+}
+
+.sass-icon:hover {
+    fill: #CC6699;
+}
+
+.bootstrap-icon:hover {
+    fill: #7711F6;
+}
+
+.js-icon:hover {
+    fill: #e7be08;
+    color: rgb(234, 250, 9);
+}
+
+.python-icon:hover {
+   fill:#0b95f1;
+    transition: 0.7s ease-in-out;
+    transition-duration: 1s;
+}
+
+.git-icon:hover {
+    fill: #F05133;
+    transition: all 0.7s ease-in-out;
+}
+
+.github-icon:hover {
+    transition: all 0.7s ease-in-out;
+}
+

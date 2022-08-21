@@ -9,13 +9,14 @@ color: white;
 text-shadow: 2px 2px var(--yellow);
 font-size: 65px;
 margin-bottom: 4px ;
+color: white;
 }
 .projectsAreaComplet{
     width: 100%;
     margin: 0 auto;
     overflow: hidden;
     padding: 20px;
-    max-width: 1300px;
+    
     margin-top:100px;
 }
 
