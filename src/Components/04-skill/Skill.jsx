@@ -58,7 +58,7 @@ export const Skill = () => {
         <p className='paragraph' data-aos="fade-up"
           data-aos-anchor-placement="bottom-bottom">
             <b>HTML .</b> <br />
-            <b>CSS:</b> Bootstrap,SASS,VariablesCSS,Tailwind,Responsive Web Design
+            <b>CSS:</b> Bootstrap,SASS,VariablesCSS,Tailwind,<br className='br'/>Responsive Web Design
             <br />
             <b>JavaScript :</b> sweetAlert ,Jquery, Redux .<br />
             <b>React Js:</b>React-Router-dom , MaterialUI, StyledComponents,
@@ -69,7 +69,7 @@ export const Skill = () => {
             <b>GITHUB.</b>
         </p>
         <div data-aos="fade-up"
-          data-aos-anchor-placement="bottom-bottom">
+          data-aos-anchor-placement="bottom-bottom"  data-aos-once="true">
 
           <FaHtml5 className="fa-brands fa-html5 tech-icon html-icon" />
           <IoLogoCss3 className="fa-brands fa-css3-alt tech-icon css-icon" />

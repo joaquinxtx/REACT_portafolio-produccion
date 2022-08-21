@@ -57,4 +57,10 @@
 .github-icon:hover {
     transition: all 0.7s ease-in-out;
 }
+@media screen and (min-width:500px){
+    .br{
+        display: none;
+    }
+
+}
 
