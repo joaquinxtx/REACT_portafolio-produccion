@@ -1,12 +1,27 @@
+
+
+import { Carrousel } from "../carrousel-Bootstrap/Carousel";
 import "./Projects.css";
 
 export const Projects = () => {
   return (
     <div className="projects">
       <div className="container">
-        <h1 className="titleProjects" id="projects">Proyectos</h1>
-        <div className="divider"></div>
-        <div className="projectsAreaComplet">
+        <h1 className="titleProjects" id="projects" 
+        data-aos="fade-left"
+        data-aos-once="true"
+        data-aos-offset="500"
+        data-aos-duration="500"
+        >
+          Proyectos
+        </h1>
+        <div className="divider"
+        data-aos="fade-right"
+        data-aos-offset="500"
+        data-aos-duration="500"
+        data-aos-once="true"
+        ></div>
+        <div className="projectsAreaComplet" data-aos="zoom-in-right">
 
 
         <div className="areaConteiner">
@@ -99,7 +114,9 @@ export const Projects = () => {
         </div>
 
         </div>
+      <Carrousel/>
       </div>
+
     </div>
   );
 };

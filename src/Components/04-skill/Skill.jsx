@@ -19,14 +19,16 @@ export const Skill = () => {
             Formacion
         </h1>
         <div className='divider'></div>
-        <p className='paragraph'>
+        <p className='paragraph' data-aos="fade-up"
+           data-aos-anchor-placement="bottom-bottom">
           Termine mi formacion Front-End en el bootcamp de CoderHouse
           aprendiendo multiples lenguajes y tecnologias para el desarrollo
           optimo de una aplicacion web siempre teniendo en cuenta las buenas
           practicas para un codigo limpio y usando las utimas tecnologias del
           mercado.{" "}
         </p>
-        <p className='paragraph'>
+        <p className='paragraph'data-aos="fade-up"
+          data-aos-anchor-placement="bottom-bottom">
           Cursos de Udemy:
           <br />
           React de cero a Experto Fernando Herrera(Terminado)
@@ -41,7 +43,8 @@ export const Skill = () => {
             ¿Qué servicios Ofrezco?
         </h1>
         <div className='divider'></div>
-        <p className='paragraph'>
+        <p className='paragraph' data-aos="fade-up"
+          data-aos-anchor-placement="bottom-bottom">
           Actualmente diseño, rediseño sitios web con mi stack de tecnologias
           Front-end .Estoy continuamente aprendiendo y adquiriendo nuevas
           habilidades en función a las actuales y futuras demandas y tendencias
@@ -52,7 +55,8 @@ export const Skill = () => {
             Tecnologias
         </h1>
         <div className='divider'></div>
-        <p className='paragraph'>
+        <p className='paragraph' data-aos="fade-up"
+          data-aos-anchor-placement="bottom-bottom">
             <b>HTML .</b> <br />
             <b>CSS:</b> Bootstrap,SASS,VariablesCSS,Tailwind,Responsive Web Design{" "}
             <br />
@@ -64,6 +68,9 @@ export const Skill = () => {
             <b> GIT</b> <br />
             <b>GITHUB.</b>
         </p>
+        <div data-aos="fade-up"
+          data-aos-anchor-placement="bottom-bottom">
+
           <FaHtml5 className="fa-brands fa-html5 tech-icon html-icon" />
           <IoLogoCss3 className="fa-brands fa-css3-alt tech-icon css-icon" />
           <DiSass className="fa-brands fa-sass tech-icon sass-icon" />
@@ -73,6 +80,7 @@ export const Skill = () => {
           <BiGitRepoForked className="fa-brands fa-git-alt tech-icon git-icon" />
           <AiFillGithub className="fa-brands fa-github tech-icon github-icon" />
           <SiNextdotjs className="fa-brands  tech-icon " />
+        </div>
 
     </div>
   )

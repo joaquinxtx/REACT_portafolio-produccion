@@ -10,21 +10,26 @@ export const Beginning = () => {
     <>
       <header className=" containerBeginning" id="inicio">
         <div className="container">
-          <h1 className="fa-brands fa-js tech-icon js-icon title titleJT">
+          <h1 className="fa-brands fa-js tech-icon js-icon title titleJT" data-aos="fade-down">
             {"<"}
             <img className="jt" src={jt} alt="" />
             {"/>"}
           </h1>
-          <div className="  containerFoto">
+          <div className="  containerFoto" 
+            data-aos="fade-left" 
+            data-aos-delay="100"
+            data-aos-duration="1000">
             <img className="imgHome" src={img} alt="imgHome" />
           </div>
-          <div className="nameTitle">
+          <div className="nameTitle" data-aos="fade-up" data-aos-delay="300"
+            data-aos-duration="2000" >
             <p>¡Hola mundo!</p>
             <h1>
               Soy <span className="titleSpan">Joaquin</span>
             </h1>
           </div>
-          <div className="typewrite-box">
+          <div className="typewrite-box" data-aos="fade-up" data-aos-delay="300"
+            data-aos-duration="2000" data-aos-once="true">
             <p>
               <a
                 href="https://github.com/joaquinxtx"

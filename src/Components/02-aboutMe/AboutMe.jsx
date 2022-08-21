@@ -1,10 +1,15 @@
+
+
 import { GrDescend } from "react-icons/gr";
 import './AboutMe.css'
 
 export const AboutMe = () => {
   return (
     <div className='container' id='aboutMe'>
-        <div className='titleAboutMe'>
+        <div className='titleAboutMe' 
+          data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine">
             <h3>
                 <p> {'<'} <span>/</span> {'>'} </p>
                 Joaquin Toledo
@@ -16,7 +21,9 @@ export const AboutMe = () => {
                 Sobre Mi
             </h1>
             <div className="divider"></div>
-            <p className='paragraph'>
+            <p className='paragraph' 
+              data-aos="fade-up"
+              data-aos-anchor-placement="center-bottom">
               Hola mi nombre es Joaquin Toledo, apasionado por el diseño,
               desarrollo de sitios web . Diseño y desarrollo siempre con la idea
               que la diferencia está en los detalles. Mi objetivo principal es
@@ -26,7 +33,7 @@ export const AboutMe = () => {
               responsivos, rápidos, fáciles de usar y construidos con las mejores
               prácticas.
             </p>
-            <div className='dowlangCV'>
+            <div className='dowlangCV' data-aos="flip-right" data-aos-duration="1000">
             <a
               href="https://drive.google.com/file/d/1P0eC75Q8zxj8S_dyMY_huwu774G7cVgt/view?usp=sharing"
               target="_blank"
