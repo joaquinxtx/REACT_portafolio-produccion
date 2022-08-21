@@ -58,7 +58,7 @@ export const Skill = () => {
         <p className='paragraph' data-aos="fade-up"
           data-aos-anchor-placement="bottom-bottom">
             <b>HTML .</b> <br />
-            <b>CSS:</b> Bootstrap,SASS,VariablesCSS,Tailwind,Responsive Web Design{" "}
+            <b>CSS:</b> Bootstrap,SASS,VariablesCSS,Tailwind,Responsive Web Design
             <br />
             <b>JavaScript :</b> sweetAlert ,Jquery, Redux .<br />
             <b>React Js:</b>React-Router-dom , MaterialUI, StyledComponents,
