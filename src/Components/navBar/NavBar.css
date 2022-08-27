@@ -13,7 +13,15 @@
     gap: 23px;
     border-radius: 50px;
     opacity: 0;
-    animation: fade-nav-in 1s ease 1 1s forwards;
+    -webkit-animation: fade-nav-in 1s ease 1 1s forwards;
+            animation: fade-nav-in 1s ease 1 1s forwards;
+}
+
+@-webkit-keyframes fade-nav-in{
+    to{
+        transform: translate(0,-50%);
+        opacity: 1;
+    }
 }
 
 @keyframes fade-nav-in{
@@ -53,6 +61,8 @@
         gap: 30px;
         border-radius: 50px;
         
-        animation: fade-nav-in 1s ease 1 1s forwards;
+        -webkit-animation: fade-nav-in 1s ease 1 1s forwards;
+        
+                animation: fade-nav-in 1s ease 1 1s forwards;
     }
 }

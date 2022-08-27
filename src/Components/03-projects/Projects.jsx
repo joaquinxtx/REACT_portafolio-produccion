@@ -117,7 +117,7 @@ export const Projects = () => {
         </div>
       <Carrousel/>
 
-      <div className='divBotton' data-aos="flip-right" data-aos-duration="1000">
+      <div className='divBotton' data-aos="flip-right" data-aos-duration="1000" data-aos-once="true">
         <Link className='buttonVerMas' to='/proyectos'>
           VER MAS
         </Link>
