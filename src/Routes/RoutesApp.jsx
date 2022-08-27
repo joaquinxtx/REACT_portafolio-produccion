@@ -13,8 +13,13 @@ export const RoutesApp = () => {
     <Routes>
         <Route path='/' element={<PortfolioConteiner/>}/>
         <Route path='/proyectos' element={<PageProjects />} />
+
+        <Route
+        path="*"
+        element={<Navigate to={<PortfolioConteiner/>} replace />}
+    />
         
-        <Route path='/*' element={<Navigate to={<PortfolioConteiner/>} />}/>
+       
       </Routes>
       <Network/>
       
