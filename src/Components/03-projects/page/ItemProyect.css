@@ -1,23 +1,28 @@
 .gridItemProyect{
-    background: linear-gradient(107deg, rgba(145,0,255,1) 14%,rgba(16,204,231,1)  96%);
     border-radius: 5%;
     display: grid;
     border: 3px solid rgb(255, 249, 249);
     grid-template-rows: repeat( 1fr);
     grid-gap: 10px;
     cursor: pointer;
-    opacity: 1;
-    transition: all 0.4s ease-out .7s;
+   
    
 }
-.gridItemProyect:hover{
-    background: linear-gradient(107deg, rgba(16,204,231,1)  14%,rgba(145,0,255,1)  96%);
+.hola{
+    transition: .4s ease all !important;
+    background-image: linear-gradient(107deg, rgba(145,0,255,1) 14%,rgba(16,204,231,1)  96%);
+    transition-timing-function: linear !important;
+}
+.hola:hover{
+    
+    background-position: 602px;
+    transition: .4s ease all !important;
+    background-image: linear-gradient(107deg, rgba(16,204,231,1)  14%,rgba(145,0,255,1)  96%);
     -webkit-box-shadow: -7px 7px 14px -1px rgba(235,240,238,1);
     -moz-box-shadow: -7px 7px 14px -1px rgba(235,240,238,1);
     box-shadow: -7px 7px 14px -1px rgba(235,240,238,1);
-    
-   
 }
+
 .divGridItem{
     width: 85%;
     cursor: pointer;
@@ -77,4 +82,14 @@
 .divGridItem h3{
    
     font-size: 24px;
+}
+@media screen and (max-width:860px){
+
+.hola:hover{
+    
+    background-position: 0;
+    transition: .4s ease all !important;
+    background-image: linear-gradient(107deg, rgba(145,0,255,1) 14%,rgba(16,204,231,1)  96%);
+    
+}
 }
