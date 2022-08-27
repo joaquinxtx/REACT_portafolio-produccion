@@ -4,7 +4,7 @@ import "./ItemProyect.css";
 
 export const ItemsProyect = ({img,alt,nameProyect,deQueTrata,description,tech2,tech3,tech4,tech5,tech6,tech}) => {
   return (
-    <div className="gridItemProyect " data-aos="fade-up"data-aos-delay="100"
+    <div className="gridItemProyect "  data-aos="fade-up"data-aos-delay="100"
     data-aos-duration="700">
         <div className="divImgProycto"data-aos="flip-right"data-aos-delay="100"
             data-aos-duration="700">
