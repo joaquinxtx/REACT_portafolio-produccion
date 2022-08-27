@@ -16,7 +16,7 @@ export const RoutesApp = () => {
 
         <Route
         path="*"
-        element={<Navigate to={<PortfolioConteiner/>} replace />}
+        element={<Navigate to="/" replace />}
     />
         
        
