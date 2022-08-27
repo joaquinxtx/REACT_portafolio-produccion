@@ -21,11 +21,9 @@ export const Skill = () => {
         <div className='divider'></div>
         <p className='paragraph' data-aos="fade-up"
            data-aos-anchor-placement="bottom-bottom">
-          Termine mi formacion Front-End en el bootcamp de CoderHouse
-          aprendiendo multiples lenguajes y tecnologias para el desarrollo
-          optimo de una aplicacion web siempre teniendo en cuenta las buenas
-          practicas para un codigo limpio y usando las utimas tecnologias del
-          mercado.{" "}
+          Termine mi formación Front-End en el bootcamp de CoderHouse aprendiendo múltiples lenguajes y tecnologías para el desarrollo optimo de una aplicación web siempre teniendo en cuenta las buenas practicas para un código limpio y usando las ultimas tecnologías del mercado.
+          {" "}
+           
         </p>
         <p className='paragraph'data-aos="fade-up"
           data-aos-anchor-placement="bottom-bottom">
@@ -37,7 +35,7 @@ export const Skill = () => {
           (60%)
           <br />
           Next Js de cero a experto Fernando Herrera(25%) <br />
-          SQL basico (terminado)
+          SQL básico (terminado){" "}
         </p>
         <h1 className='titleFormacion'>
             ¿Qué servicios Ofrezco?
@@ -45,7 +43,7 @@ export const Skill = () => {
         <div className='divider'></div>
         <p className='paragraph' data-aos="fade-up"
           data-aos-anchor-placement="bottom-bottom">
-          Actualmente diseño, rediseño sitios web con mi stack de tecnologias
+          Actualmente diseño, rediseño sitios web con mi stack de tecnologías
           Front-end .Estoy continuamente aprendiendo y adquiriendo nuevas
           habilidades en función a las actuales y futuras demandas y tendencias
           tecnológicas en el campo del diseño para poder generar un buen impacto

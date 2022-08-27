@@ -1,0 +1,52 @@
+.fondoProyects{
+    background: linear-gradient(107deg, rgba(231,127,16,1) 14%, rgba(255,0,198,1) 96%);
+}
+.titleproyect{
+    font-size: 4rem;
+    text-shadow: 2px 1px black;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    
+}
+.titleproyect:hover{
+    color: var(--turkesa);
+}
+.displayGridProyect{
+  margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+    grid-auto-rows: minmax(100px, auto);
+}
+.containerProyect{
+    width: 80%;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+
+@media screen and (max-width:860px){
+    .displayGridProyect{
+        grid-template-columns: none;
+        
+        
+    }
+    .containerProyect{
+        width: 65%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width:500px){
+    .displayGridProyect{
+        grid-template-columns: none;
+       
+       
+    }
+    .containerProyect{
+        width: 90%;
+        margin: auto;
+    }
+}

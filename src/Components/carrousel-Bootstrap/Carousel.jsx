@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import './Carousel.css'
+import img from './img/Captura-de-pantalla1.png'
+import img2 from './img/snake-img.png'
+import img3 from './img/techo.png'
 
 export const Carrousel = ()=>{
   const [index, setIndex] = useState(0);
@@ -17,7 +20,7 @@ export const Carrousel = ()=>{
         <Carousel.Item>
             <img
             className="d-block w-100 imgCarousel"
-            src="https://media-cdn.tripadvisor.com/media/photo-s/15/a4/9b/77/legacy-hotel-at-img-academy.jpg"
+            src={img}
             alt="First slide"
             />
             <Carousel.Caption>
@@ -28,7 +31,7 @@ export const Carrousel = ()=>{
         <Carousel.Item>
             <img
             className="d-block w-100 imgCarousel"
-            src="https://media-cdn.tripadvisor.com/media/photo-s/15/a4/9b/77/legacy-hotel-at-img-academy.jpg"
+            src={img2}
             alt="Second slide"
             />
 
@@ -40,7 +43,7 @@ export const Carrousel = ()=>{
         <Carousel.Item>
             <img
             className="d-block w-100 imgCarousel"
-            src="https://fondosmil.com/fondo/17016.jpg"
+            src={img3}
             alt="Third slide"
             />
 
@@ -52,6 +55,7 @@ export const Carrousel = ()=>{
             </Carousel.Caption>
         </Carousel.Item>
         </Carousel>
+        
     </div>
   );
 }
