@@ -5,11 +5,14 @@
 }
 html{
   scroll-behavior: smooth;
+  max-width: 100%;
+  overflow-x: hidden !important;
 
 }
 
 body{
   font-family: 'Roboto', sans-serif;
+  overflow: hidden;
 }
 :root{
   --yellow: rgb(255, 217, 0);
