@@ -1,5 +1,3 @@
-
-
 import { GrDescend } from "react-icons/gr";
 import './AboutMe.css'
 

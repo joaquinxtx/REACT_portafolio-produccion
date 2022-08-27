@@ -1,7 +1,7 @@
 .gridItemProyect{
     border-radius: 5%;
     display: grid;
-    border: 3px solid rgb(255, 249, 249);
+    border: 1px solid rgb(63, 62, 62);
     grid-template-rows: repeat( 1fr);
     grid-gap: 10px;
     cursor: pointer;
@@ -10,14 +10,14 @@
 }
 .hola{
     transition: .4s ease all !important;
-    background-image: linear-gradient(107deg, rgba(145,0,255,1) 14%,rgba(16,204,231,1)  96%);
+    background-color:rgb(32, 32, 32);
     transition-timing-function: linear !important;
 }
 .hola:hover{
     
     background-position: 602px;
-    transition: .4s ease all !important;
-    background-image: linear-gradient(107deg, rgba(16,204,231,1)  14%,rgba(145,0,255,1)  96%);
+    
+    
     -webkit-box-shadow: -7px 7px 14px -1px rgba(235,240,238,1);
     -moz-box-shadow: -7px 7px 14px -1px rgba(235,240,238,1);
     box-shadow: -7px 7px 14px -1px rgba(235,240,238,1);
@@ -27,13 +27,16 @@
     width: 85%;
     cursor: pointer;
     margin:auto;
-   
+   border: 1px solid rgb(56, 54, 54);
+   border-radius: 10px;
     margin-top: 20px;
     color: white;
+    margin-bottom: 20px;
 }
 .divImgProycto{
     width: 85%;
     margin: 0 auto;
+
 }
 .imgProyectItem{
    width: 100%;
@@ -45,7 +48,7 @@
     cursor: pointer;
 }
 .tech-used {
-	padding: 0;
+	padding: 10px;
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
@@ -74,22 +77,32 @@
     font-size: 12px;
 }
 .divGridItem h2{
-    color: linear-gradient(to right, red , yellow);;
-
+    
+    text-align: center;
     font-weight: 600;
     font-size: 28px;
+    padding: 5px;
+    padding-top: 10px;
 }
 .divGridItem h3{
-   
+   padding-left: 10px;
     font-size: 24px;
+    
 }
-@media screen and (max-width:860px){
+.iconProyectFlex{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+   
+}
+.iconProyect{
+    width: 50px;
+    height: 50px;
+    transition: .3s ease all;
+}
+.iconProyect:hover{
+    fill:  rgb(245, 99, 14);
+    width: 50px;
+    height: 50px;
+}
 
-.hola:hover{
-    
-    background-position: 0;
-    transition: .4s ease all !important;
-    background-image: linear-gradient(107deg, rgba(145,0,255,1) 14%,rgba(16,204,231,1)  96%);
-    
-}
-}

@@ -24,7 +24,7 @@ export const PageProjects = () => {
         <div className="displayGridProyect">
           <ItemsProyect
             img="https://img.unocero.com/2019/08/MercadoLibre.jpg"
-            deQueTrata=" ✨( Clonando Mercado Libre)"
+            deQueTrata=" ✨(Clonando Mercado Libre)"
             description=""
             nameProyect="MeLi Clon"
             tech="React.JS"
@@ -35,7 +35,7 @@ export const PageProjects = () => {
           />
           <ItemsProyect
             img="https://img.freepik.com/vector-premium/juego-terminado-imagenes-predisenadas-pantalla-retro-arcade-juegos-consola-vintage-lanza-pantalla-azul-arranque-accion-vectorial_572038-26.jpg"
-            deQueTrata=" 🐍 ( Juego de Snake )"
+            deQueTrata=" 🐍 (Juego de Snake)"
             description=""
             nameProyect="Snake Game"           
             tech="JavaScript"

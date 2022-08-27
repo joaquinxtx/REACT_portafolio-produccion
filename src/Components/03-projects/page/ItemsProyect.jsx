@@ -1,4 +1,6 @@
 import React from "react";
+import { AiOutlinePaperClip } from "react-icons/ai";
+import { AiOutlineGithub} from "react-icons/ai";
 import "react-bootstrap";
 import "./ItemProyect.css";
 
@@ -51,7 +53,13 @@ export const ItemsProyect = ({
             <li>{tech5} </li>
             <li>{tech6} </li>
           </ul>
+
+          <div className="iconProyectFlex">
+            <AiOutlinePaperClip className="iconProyect"/>
+            <AiOutlineGithub className="iconProyect"/>
+          </div>
         </div>
+
       </div>
     </>
   );
