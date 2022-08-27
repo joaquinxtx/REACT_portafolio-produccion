@@ -1,16 +1,25 @@
 import React from "react";
 import { ItemsProyect } from "./ItemsProyect";
+import {IoMdReturnLeft } from "react-icons/io";
 import "./PageProyect.css";
+import { Link } from "react-router-dom";
 
 export const PageProjects = () => {
   return (
     <div className="fondoProyects">
       <div className="containerProyect">
+        <div className="flexIcon">
+        <Link  to='/'>
+          <IoMdReturnLeft className="return" />
+        </Link>  
         <h1 className=" titleproyect " data-aos="fade-down">
           {"<"}
           Proyectos
           {"/>"}
         </h1>
+
+        </div>
+       
 
         <div className="displayGridProyect">
           <ItemsProyect

@@ -2,6 +2,7 @@
     background: linear-gradient(107deg, rgba(231,127,16,1) 14%, rgba(255,0,198,1) 96%);
 }
 .titleproyect{
+    transition: .3s ease-in-out all;
     font-size: 4rem;
     text-shadow: 2px 1px black;
     font-weight: 700;
@@ -26,6 +27,23 @@
     padding-bottom: 50px;
 }
 
+.return{
+    justify-items: center;
+    align-items: flex-start;
+    text-decoration: none;
+    fill: aliceblue;
+    width: 50px;
+    height: 50px;
+    transition: .3s ease-in-out all;
+}
+.return:hover{
+    justify-items: center;
+    align-items: flex-start;
+    text-decoration: none;
+    fill: rgb(14, 245, 245);
+    width: 50px;
+    height: 50px;
+}
 
 @media screen and (max-width:860px){
     .displayGridProyect{
