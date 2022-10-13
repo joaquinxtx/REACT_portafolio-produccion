@@ -23,7 +23,7 @@ export const Skill = () => {
           <div className='divider'></div>
           <p className='paragraph' data-aos="fade-up"
             data-aos-anchor-placement="bottom-bottom">
-            Termine mi formación Front-End en el bootcamp de CoderHouse aprendiendo múltiples lenguajes y tecnologías para el desarrollo optimo de una aplicación web siempre teniendo en cuenta las buenas practicas para un código limpio y usando las ultimas tecnologías del mercado.
+            Termine mi formación Front-End en el bootcamp de CoderHouse aun asi sigo de forma autodidacta aprendiendo múltiples lenguajes y tecnologías para el desarrollo optimo de una aplicación web siempre teniendo en cuenta las buenas practicas para un código limpio y usando las ultimas tecnologías del mercado.
             {" "}
             
           </p>
@@ -31,13 +31,13 @@ export const Skill = () => {
             data-aos-anchor-placement="bottom-bottom">
             Cursos de Udemy:
             <br />
-            React de cero a Experto Fernando Herrera(Terminado)
+            React de cero a Experto Fernando Herrera
             <br />
             React con typescript lleva tus bases a otro nivel Fernando Herrera
-            (60%)
+            
             <br />
-            Next Js de cero a experto Fernando Herrera(25%) <br />
-            SQL básico (terminado){" "}
+            Next Js de cero a experto Fernando Herrera <br />
+            SQL básico {" "}
           </p>
           <h1 className='titleFormacion'>
               ¿Qué servicios Ofrezco?
@@ -65,6 +65,10 @@ export const Skill = () => {
               Context , HOOKS ,Redux Toolkin,Firebase ,MERN ,CRUD.
               <br />
               <b>Typescript.</b> <br />
+              <b>Docker</b> <br />
+              <b>MongooDB</b><br />
+              <b> SQL </b> <br />
+              <b>Next.JS</b>
               <b> GIT</b> <br />
               <b>GITHUB.</b>
           </p>

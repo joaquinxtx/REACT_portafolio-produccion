@@ -1,6 +1,7 @@
 import React from 'react'
 import { Navigate, Route, Routes } from 'react-router-dom'
 import { PageProjects } from '../Components/03-projects/page/PageProjects'
+import { Footer } from '../Components/05-footer/Footer'
 import { Network } from '../Components/05-networks/Network'
 
 import { PortfolioConteiner } from '../Components/PortfolioConteiner'
@@ -21,7 +22,7 @@ export const RoutesApp = () => {
         
        
       </Routes>
-      <Network/>
+      <Footer/>
       
     </>
   )

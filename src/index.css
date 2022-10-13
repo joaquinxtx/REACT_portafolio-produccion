@@ -9,6 +9,22 @@ html{
   overflow-x: hidden !important;
 
 }
+::-webkit-scrollbar {
+	width: 10px;
+  background-color: rgba(0, 0, 0, 0.884);
+}
+
+::-webkit-scrollbar-thumb {
+  
+	border-radius: 10px;
+	background-color: var(--turkesa);
+}
+
+.typed-cursor {
+	font-size: calc(0.8em + 1vw);
+	font-weight: 200;
+}
+
 
 body{
   font-family: 'Roboto', sans-serif;

@@ -16,6 +16,8 @@ export const ItemsProyect = ({
   tech5,
   tech6,
   tech,
+  github,
+  web
 }) => {
   return (
     <>
@@ -55,8 +57,14 @@ export const ItemsProyect = ({
           </ul>
 
           <div className="iconProyectFlex">
-            <AiOutlinePaperClip className="iconProyect"/>
-            <AiOutlineGithub className="iconProyect"/>
+            <a href={github}>
+              <AiOutlineGithub className="iconProyect"/>
+              
+            </a>
+            <a href={web}>
+              <AiOutlinePaperClip className="iconProyect"/>
+
+            </a>
           </div>
         </div>
 
