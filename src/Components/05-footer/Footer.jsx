@@ -15,24 +15,24 @@ export const Footer = () => {
             <div className='footerDiv3'>
                 <h2>Contacto</h2>
                 <li>
-                    <BsLinkedin  className="icon-network"/>
-                    <a href="https://www.linkedin.com/in/joaquin1998/">Linkedin</a>
+                    
+                    <a href="https://www.linkedin.com/in/joaquin1998/"><BsLinkedin  className="icon-network"/>Linkedin</a>
                 </li>
                 <li>
-                    <AiFillGithub  className="icon-network"/>
-                    <a href="https://github.com/joaquinxtx">GitHub</a>
+                    
+                    <a href="https://github.com/joaquinxtx"><AiFillGithub  className="icon-network"/>GitHub</a>
                 </li>
                 <li>
-                    <SiGmail className="icon-network"/>
-                    <a href="mailto:thejotex1998@gmail.com">Gmail</a>
+                    
+                    <a href="mailto:thejotex1998@gmail.com"><SiGmail className="icon-network"/>Gmail</a>
                 </li>
                 <li>
-                    <BsFacebook  className="icon-network"/>
-                    <a href="https://www.facebook.com/joaquina.toledo.90/">Facebook</a>
+                    
+                    <a href="https://www.facebook.com/joaquina.toledo.90/"><BsFacebook  className="icon-network"/>Facebook</a>
                 </li>
                 <li>
-                    <FaInstagramSquare  className="icon-network"/>
-                    <a href="https://www.instagram.com/joaquinxtx/">Instagram</a>
+                    
+                    <a href="https://www.instagram.com/joaquinxtx/"><FaInstagramSquare  className="icon-network"/>Instagram</a>
                 </li>
             </div>
         </div>
