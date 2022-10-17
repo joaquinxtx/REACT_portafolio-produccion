@@ -46,24 +46,40 @@ export const PageProjects = () => {
               tech6="Firebase"
               tech7="Material UI"
               github='https://github.com/joaquinxtx/Lista-de-tareas'
-              web='https://journal-reduxtoolkin.vercel.app/'
+              web='https://journal-reduxtoolkin-844g.vercel.app/auth/login'
             />
+              <ItemsProyect
+                img="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/arbol-de-navidad-decoracion-1607862333.jpg?crop=0.667xw:1.00xh;0.187xw,0&resize=640:*"
+                deQueTrata="Regalos-Challenge✨"
+                description="App Para hacer una lista de regalos y tener informe del precio"
+                nameProyect=""
+                tech="React.JS"
+                tech2="JavaScript"
+                tech3="styled-Components"
+                tech4="Booststrap"
+                tech5="patron solid"
+                tech6="Firebase"
+                github='https://github.com/joaquinxtx/Desafio-regalos'
+                web='https://challenge-regalos.netlify.app/'
+              />
           <ItemsProyect
             img="https://total-condo.com/wp-content/uploads/2022/02/Total-condo-logo-1000x1000-72ppp_Mesa-de-trabajo-1.png"
             deQueTrata=" 💼(Proyecto Real en al que estoy trabjando con un grupo)"
-            description=""
-            nameProyect="Total Condo mobil web"
+            description="El Repo es privado asi que dejo un videito en vez del GITHUB mil disculpas 🙏"
+            nameProyect="Total Condo movil web"
             tech="React.JS"
             tech2="JavaScript"
             tech3="Redux Toolkin"
             tech4="Material UI"
             tech5="Node.js"
             tech6="SQL"
+            github='https://www.youtube.com/watch?v=xN6HKf8TUlg&t=119s'
+            web='https://total-condo.com/'
           />
           <ItemsProyect
             img="https://terreno.pe/wp-content/uploads/2020/07/FincaBonita-4.jpg"
             deQueTrata=" 💼( Proyecto Real en al que estoy trabjando con un grupo)"
-            description=""
+            description="El Repo es privado asi que dejo un videito en vez del GITHUB mil disculpas 🙏"
             nameProyect="Total Condo"
             tech="React.JS"
             tech2="JavaScript"
@@ -71,6 +87,8 @@ export const PageProjects = () => {
             tech4="Material UI"
             tech5="Node.js"
             tech6="SQL"
+            github='https://www.youtube.com/watch?v=xN6HKf8TUlg&t=119s'
+            web='https://total-condo.com/'
           />
             <ItemsProyect
               img="https://miro.medium.com/max/1400/1*VTKsiByHMcWDIxpFawp4fg.png"
@@ -96,19 +114,7 @@ export const PageProjects = () => {
             tech5="GIT"
             github='https://github.com/joaquinxtx/snake-juego'
             web='https://snake-juego-jdev.netlify.app/html/juego.html'
-          />
-          <ItemsProyect
-            img="https://elceo.com/wp-content/uploads/2020/12/fotoarte-1.jpg"
-            deQueTrata=" 🛒 ( Proyecto E-commerse  )"
-            description=""
-            nameProyect="E-commerse"
-            tech="React.JS"
-            tech2="JavaScript"
-            tech3="styled-Components"
-            tech4="Booststrap"
-            tech5="patron solid"
-            tech6="Firebase"
-          />
+            />
           <ItemsProyect
             img="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/480/public/media/image/2018/11/giphy.jpg?itok=1GnoR6Yd"
             deQueTrata=" 🎇 ( Consumiendo Api GIPHY )"
