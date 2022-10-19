@@ -33,7 +33,7 @@ export const AboutMe = () => {
             </p>
             <div className='dowlangCV' data-aos="flip-right" data-aos-duration="1000">
             <a
-              href="https://drive.google.com/file/d/126TSDgcbiKrcED-BRN_5vkD9CLXFjHr-/view?usp=sharing"
+              href="https://drive.google.com/file/d/1d5Br3nJM9tTBYlbxXouDV802-8qaPSQD/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >
