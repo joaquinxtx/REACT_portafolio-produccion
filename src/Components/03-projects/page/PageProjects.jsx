@@ -23,7 +23,7 @@ export const PageProjects = () => {
           <ItemsProyect
             img="https://img.unocero.com/2019/08/MercadoLibre.jpg"
             deQueTrata=" Calendario y anotaciones con autenticacion "
-            description="Proyecto con service worked"
+            description="Proyecto con service worked donde se puede hacer peticiones off-line y ser publicado cuando se recupere el online"
             nameProyect="Calendario MERN"
             tech="React.JS"
             tech2="typescript"
@@ -32,6 +32,8 @@ export const PageProjects = () => {
             tech5="node"
             tech6="Service Worked"
             tech7="MongooDB"
+            github='https://github.com/joaquinxtx/calendario'
+            web='https://calendariojdev.netlify.app/'
           />
             <ItemsProyect
               img="https://cdn.shopify.com/s/files/1/0426/9209/articles/diseno-web-todo-lo-que-debes-saber_960x502_crop_center.jpg?v=1598655949960w"
