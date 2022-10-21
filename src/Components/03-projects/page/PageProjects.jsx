@@ -21,7 +21,7 @@ export const PageProjects = () => {
 
         <div className="displayGridProyect">
           <ItemsProyect
-            img="https://img.unocero.com/2019/08/MercadoLibre.jpg"
+            img="https://d500.epimg.net/cincodias/imagenes/2021/05/17/lifestyle/1621272309_585275_1621272544_noticia_normal.jpg"
             deQueTrata=" Calendario y anotaciones con autenticacion "
             description="Proyecto con service worked donde se puede hacer peticiones off-line y ser publicado cuando se recupere el online"
             nameProyect="Calendario MERN"

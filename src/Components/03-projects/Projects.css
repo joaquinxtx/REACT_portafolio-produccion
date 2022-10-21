@@ -84,10 +84,7 @@ color: white;
     cursor: pointer;
     transition: transform .4s ease-in-out;
 }
-.projectSubTitleHover:hover{    
-    transform: translate(100%);
-        
-}
+
 .divBotton{
     
     display: flex;
