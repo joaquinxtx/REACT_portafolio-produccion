@@ -75,6 +75,7 @@ export const PageProjects = () => {
             tech4="Material UI"
             tech5="Node.js"
             tech6="SQL"
+            tech7="Axios"
             github='https://www.youtube.com/watch?v=xN6HKf8TUlg&t=119s'
             web='https://total-condo.com/'
           />
@@ -91,6 +92,19 @@ export const PageProjects = () => {
             tech6="SQL"
             github='https://www.youtube.com/watch?v=xN6HKf8TUlg&t=119s'
             web='https://total-condo.com/'
+          />
+          <ItemsProyect
+            img="https://wallpaperaccess.com/full/6256511.jpg"
+            deQueTrata=" 🍝(Proyecto Prueba tecnica)"
+            description="Proyecto que hice en una prueba tecnica donde tenia que traer datos de una api y dibujarlos usando las siguientes tecnologias"
+            nameProyect="Food To Day 🥨"
+            tech="React.JS"
+            tech2="Typescript"
+            tech3="Redux"
+            tech4="tailwind CSS"
+            tech5="Axios"       
+            github='https://github.com/joaquinxtx/comidasRedux'
+            web='https://comidasredux.vercel.app/'
           />
             <ItemsProyect
               img="https://miro.medium.com/max/1400/1*VTKsiByHMcWDIxpFawp4fg.png"
