@@ -1,7 +1,7 @@
 import React from "react";
 
 import jt from "./img/jt.jpg";
-import img from "./img/jota2.jpg";
+import img from "./img/yop4.jpg";
 
 import "./Beginning.css";
 

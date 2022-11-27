@@ -16,7 +16,7 @@ export const Footer = () => {
                 <h2>Contacto</h2>
                 <li>
                     
-                    <a href="https://www.linkedin.com/in/joaquin1998/"><BsLinkedin  className="icon-network"/>Linkedin</a>
+                    <a href="https://www.linkedin.com/in/joaquinfrontend/"><BsLinkedin  className="icon-network"/>Linkedin</a>
                 </li>
                 <li>
                     
@@ -24,7 +24,7 @@ export const Footer = () => {
                 </li>
                 <li>
                     
-                    <a href="mailto:thejotex1998@gmail.com"><SiGmail className="icon-network"/>Gmail</a>
+                    <a href="mailto:joaquindev98@gmail.com"><SiGmail className="icon-network"/>Gmail: joaquindev98@gmail.com </a>
                 </li>
                 <li>
                     
