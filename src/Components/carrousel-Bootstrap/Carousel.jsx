@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import './Carousel.css'
 
-import {Calendar,TotalCondo,TotalCondo2,appGeolocalizacion,ecomerce,journal,regalos,snake,techo,todoList} from './img'
+import {Calendar,TotalCondo,totalCondo2,appGeolocalizacion,ecomerce,journal,regalos,snake,techo,todoList} from './img'
 
 export const Carrousel = ()=>{
   const [index, setIndex] = useState(0);
@@ -12,7 +12,7 @@ export const Carrousel = ()=>{
   };
 
  const dataCarrousel =[
-   {id:1 , img:TotalCondo2},
+   {id:1 , img:totalCondo2},
    {id:2 , img:ecomerce},
    {id:3 , img:appGeolocalizacion},
    {id:5 , img:regalos},
